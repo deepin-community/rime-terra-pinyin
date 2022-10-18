@@ -1,0 +1,3 @@
+build/* usr/share/rime-data/build/
+terra_pinyin.dict.yaml usr/share/rime-data/
+terra_pinyin.schema.yaml usr/share/rime-data/

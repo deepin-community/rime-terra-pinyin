@@ -1,0 +1,39 @@
+Source: rime-terra-pinyin
+Section: utils
+Priority: optional
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Uploaders:
+ Boyuan Yang <byang@debian.org>,
+Build-Depends:
+ debhelper-compat (= 13),
+ librime-bin (>= 1.7.3+dfsg1-2~),
+ rime-essay,
+ rime-prelude,
+Rules-Requires-Root: no
+Standards-Version: 4.6.0
+Homepage: https://github.com/rime/rime-terra-pinyin
+Vcs-Git: https://salsa.debian.org/input-method-team/rime-terra-pinyin.git
+Vcs-Browser: https://salsa.debian.org/input-method-team/rime-terra-pinyin
+
+Package: rime-data-terra-pinyin
+Architecture: any
+Depends:
+ ${misc:Depends},
+ rime-data-stroke,
+Breaks:
+ librime-data-terra-pinyin,
+Replaces:
+ librime-data-terra-pinyin,
+Provides:
+ librime-data-terra-pinyin,
+Description: Rime Input Method Engine schema data - Terra Pinyin
+ RIME is the acronym of Rime Input Method Engine.
+ .
+ RIME is a lightweight, extensible input method engine supporting various input
+ schematas including glyph-based input methods, romanization-based input methods
+ as well as those for Chinese dialects. It has the ability to compose phrases
+ and sentences intelligently and provide very accurate traditional Chinese
+ output. RIME's cross-platform core library is written in C++, and can work
+ consistently on different platforms with OS-specific wrappers.
+ .
+ This package provides the terra pinyin schema data of RIME.

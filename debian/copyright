@@ -1,0 +1,41 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: rime-terra-pinyin
+Source: https://github.com/rime/rime-terra-pinyin
+
+Files: *
+Copyright:
+ GONG Chen <chen.sst@gmail.com>
+ Kunki Chiu <cokunhui@gmail.com>
+License: LGPL-3
+Comment:
+ Gong Chen <chen.sst@gmail.com>, Kunki Chiu <cokunhui@gmail.com> : (LGPL)
+ refined data from Chewing / 新酷音 (LGPL),
+ opencc / 開放中文轉換 (Apache License version 2),
+ Android Pinyin IME (Apache License version 2) and
+ moedict.tw／萌典 (CC0 1.0)
+   terra_pinyin*.yaml
+
+Files: debian/*
+Copyright:
+ 2021, Boyuan Yang <byang@debian.org>
+License: CC0-1.0
+
+License: CC0-1.0
+ On Debian systems, the complete text of the Creative Commons Zero v1.0
+ Universal License can be found in "/usr/share/common-licenses/CC0-1.0".
+
+License: LGPL-3
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License, version 3 as published by the Free Software Foundation.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this package; if not, see <https://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of GNU Library/Lesser General
+ Public License version 3 can be found in "/usr/share/common-licenses/LGPL-3".
